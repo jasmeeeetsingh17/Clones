@@ -4,7 +4,7 @@ This repository contains two responsive clone projects built using only **HTML**
 
 - ✅ Amazon Landing Page Clone  
 - ✅ Zomato Landing Page Clone
-- 
+  
 ## 📁 Projects
 
 ### 1. 🔶 Amazon Clone
