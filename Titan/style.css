@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins';
+}
+
+#marq {
+    background-color: black;
+    color: white;
+    font-size: .8rem;
+}
+
+
+/* .major li .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column-reverse; 
+} */
+
+.navbar {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+/* Reduce navbar height further */
+.navbar {
+    min-height: 50px;
+}
+
+/* Reduce padding around brand/logo */
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Resize icons */
+.navbar-nav img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Reduce spacing under icon text */
+.navbar-nav small {
+    font-size: 11px;
+    line-height: 1;
+}
+
+/* Smooth dropdown on hover */
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0.5rem;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+/* Optional: fade animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover dropdown only on desktop */
+@media (min-width: 992px) {
+    .navbar .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0.5rem;
+        animation: fadeIn 0.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(5px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+/* Optional: Reduce navbar height slightly */
+.navbar {
+    min-height: 55px;
+}
+
+.navbar-nav img {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-nav small {
+    font-size: 11px;
+    line-height: 1;
+}
+
+.brand-cards {
+    background-color: #FBF8F4;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.testimonial-card {
+    background-color: #fff9f4;
+    padding: 2rem;
+    border-radius: 0 0 12px 12px;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    color: #000000;
+
+}
+
+.testimonial-author {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 2rem;
+    color: #222;
+    z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        text-align: center;
+        align-items: center;
+        padding: 2rem 1.2rem;
+    }
+
+    .testimonial-author {
+        text-align: center;
+    }
+
+}
+
+footer.bg-dark {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Scroll To Top Button */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    /* Hidden by default */
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+}
+
+.scroll-top-btn:hover {
+    background-color: #333;
+}
