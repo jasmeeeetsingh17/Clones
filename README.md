@@ -16,6 +16,4 @@ A simple static clone of the Amazon India homepage.
 
 A static front-end clone of the Zomato landing page, emphasizing responsive design and aesthetic layout.
 
-### 3. ⌚ Titan Website
 
-A modern responsive clone of the Titan Watches website, built using **HTML**, **CSS**, and **Bootstrap**, focusing on grid layout, responsive navigation, and product showcase.
